@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "http://searchaisystem-env.eba-h6fyqvz3.ap-south-1.elasticbeanstalk.com/api/$1"
+      "destination": "http://searchaisystem-env.eba-h6fyqvz3.ap-south-1.elasticbeanstalk.com/$1"
     }
   ]
 }
